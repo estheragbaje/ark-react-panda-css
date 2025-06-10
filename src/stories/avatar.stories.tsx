@@ -40,7 +40,7 @@ export const Variants: Story = {
     return (
       <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
         {variants.map((variant) => {
-          const classes = avatarSlotRecipe({ variant });
+          const classes = avatarSlotRecipe({ variant, size: 'xl' });
           return (
             <Avatar.Root key={variant} className={classes.root}>
               <Avatar.Fallback className={classes.fallback}>AB</Avatar.Fallback>
@@ -60,7 +60,7 @@ export const Shape: Story = {
     return (
       <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
         {shapes.map((shape) => {
-          const classes = avatarSlotRecipe({ shape });
+          const classes = avatarSlotRecipe({ shape, size: 'xl' });
           return (
             <Avatar.Root key={shape} className={classes.root}>
               <Avatar.Fallback className={classes.fallback}>AB</Avatar.Fallback>
