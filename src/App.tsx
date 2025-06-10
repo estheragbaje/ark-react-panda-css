@@ -1,4 +1,4 @@
-import { AvatarDemo } from './stories/avatar';
+import { AvatarDemo } from './stories/avatar/avatar';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import { Avatar } from '@ark-ui/react/avatar';
-import { avatarSlotRecipe } from '../recipes/avatar';
+import { avatarSlotRecipe } from '../../recipes/avatar';
 import type { StoryObj } from '@storybook/react-vite';
 
 const meta = {

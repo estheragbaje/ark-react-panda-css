@@ -1,5 +1,5 @@
 import { Avatar } from '@ark-ui/react/avatar';
-import { avatarSlotRecipe } from '../recipes/avatar';
+import { avatarSlotRecipe } from '../../recipes/avatar';
 
 export const AvatarDemo = () => {
   const classes = avatarSlotRecipe();
