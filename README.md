@@ -1,11 +1,11 @@
-# Ark UI Avatar — Styled with Panda CSS
+# Ark UI Components — Styled with Panda CSS
 
-This project demonstrates how to style the `Avatar` component from Ark UI using Panda CSS.
-We take full advantage of Ark UI's headless structure and Panda’s slot recipe system to build a clean, scalable, and flexible Avatar component using design tokens and variants.
+This project demonstrates how to style component from Ark UI using Panda CSS.
+We take full advantage of Ark UI's headless structure and Panda’s slot recipe system to build a clean, scalable, and flexible component using design tokens and variants.
 
 ## What This Project Covers
 
-- How to render the Ark UI Avatar component
+- How to render the Ark UI component
 
 - How to target each component part (root, image, fallback)
 
