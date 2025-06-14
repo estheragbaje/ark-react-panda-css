@@ -1,7 +1,8 @@
 import { sva } from '../../styled-system/css';
+import { avatarAnatomy } from '@ark-ui/react/avatar';
 
 export const avatarSlotRecipe = sva({
-  slots: ['root', 'image', 'fallback'],
+  slots: avatarAnatomy.keys(),
   className: 'avatar',
   base: {
     root: {

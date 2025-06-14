@@ -13,7 +13,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@ark-ui/react": "^5.9.1",
+    "@ark-ui/react": "^5.14.0",
+    "lucide-react": "^0.513.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
