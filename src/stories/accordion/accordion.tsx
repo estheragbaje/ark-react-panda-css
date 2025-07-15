@@ -1,0 +1,24 @@
+import { Accordion } from '@ark-ui/react/accordion';
+import { accordionSlotRecipe } from '../../recipes/accordion';
+import { ChevronDownIcon } from 'lucide-react';
+
+export const AvatarDemo = () => {
+  const classes = accordionSlotRecipe();
+  return (
+    <Accordion.Root defaultValue={['React']} className={classes.root}>
+      {['React', 'Solid', 'Vue', 'Svelte'].map((item) => (
+        <Accordion.Item key={item} value={item}>
+          <Accordion.ItemTrigger>
+            What is {item}?
+            <Accordion.ItemIndicator>
+              <ChevronDownIcon />
+            </Accordion.ItemIndicator>
+          </Accordion.ItemTrigger>
+          <Accordion.ItemContent>
+            {item} is a JavaScript library for building user interfaces.
+          </Accordion.ItemContent>
+        </Accordion.Item>
+      ))}
+    </Accordion.Root>
+  );
+};

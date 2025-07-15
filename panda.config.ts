@@ -88,6 +88,22 @@ export default defineConfig({
           '0%': { opacity: '1', transform: 'translateY(0)' },
           '100%': { opacity: '0', transform: 'translateY(-8px)' },
         },
+        'expand-height': {
+          '0%': { height: '0' },
+          '100%': { height: 'var(--height)' },
+        },
+        'collapse-height': {
+          '0%': { height: 'var(--height)' },
+          '100%': { height: '0' },
+        },
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'fade-out': {
+          '0%': { opacity: '1' },
+          '100%': { opacity: '0' },
+        },
       },
     },
   },
